@@ -11,7 +11,7 @@ import StyledToastContainer from './components/Toast/Toast.jsx';
 import ThemeClass from './components/Theme/Theme.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/bc-65-react-node-IamLoren">
     <Provider store={store}>
       <ThemeClass/>
       <PersistGate loading={null} persistor={persistor}>

@@ -12,7 +12,7 @@ export default defineConfig({
       assets: '/src/assets'
     },
   },
-  base: '/',
+   base: '/bc-65-react-node-IamLoren/',
   build: {
     rollupOptions: {
       external: ['@chatscope/chat-ui-kit-styles'],
